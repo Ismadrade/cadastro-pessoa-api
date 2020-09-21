@@ -15,6 +15,11 @@ public class IndexController {
 	public String login() {
 		return "login";
 	}
+	
+	@RequestMapping("/erro")
+	public String erro() {
+		return "login";
+	}
 
 
 }
